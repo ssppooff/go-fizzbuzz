@@ -6,6 +6,7 @@ From [Using FizzBuzz to Find Developers who Grok Coding](https://imranontech.com
 >> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 ## Versions
+- [v1.3.0](https://github.com/ssppooff/go-fizzbuzz/releases/tag/v1.3.0): Like v1.0.0, but using `switch` instead of `else if`
 - [v1.2.0](https://github.com/ssppooff/go-fizzbuzz/releases/tag/v1.2.0): Use string concatenation, print that string otherwise print the number.
 - [v1.1.0](https://github.com/ssppooff/go-fizzbuzz/releases/tag/v1.1.0): Print `Fizz` and/or `Buzz` without newline, use boolean flag to print only newline or number.
 - [v1.0.0](https://github.com/ssppooff/go-fizzbuzz/releases/tag/v1.0.0): Use third condition `i%3 == 0 && i%5 == 0`.
